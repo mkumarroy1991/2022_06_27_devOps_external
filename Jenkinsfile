@@ -23,7 +23,7 @@ pipeline {
                 echo 'install dependencies' 
                 sh 'npm install'
                 echo 'Run tests'
-                //sh 'npm test'
+                sh 'npm test'
                 echo 'Testing completed'
             }
         }
