@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: external
-        image: manishroy1710/external:v1
+        image: manishroy1710/external:v2
         env:
           - name: SERVER
             value: 'http://internal-service:9082'
